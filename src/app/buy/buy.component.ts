@@ -5,6 +5,10 @@ import { Component } from '@angular/core';
   templateUrl: './buy.component.html',
   styleUrls: ['./buy.component.css']
 })
+
+
+
+
 export class BuyComponent {
 
 }

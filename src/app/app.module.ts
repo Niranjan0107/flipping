@@ -10,6 +10,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { WhyComponent } from './why/why.component';
 import { BuyComponent } from './buy/buy.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { MapComponentComponent } from './map-component/map-component.component';
+import { Sellv2Component } from './sellv2/sellv2.component';
 
 
 
@@ -21,7 +25,11 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     HomepageComponent,
     WhyComponent,
     BuyComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    HeaderComponent,
+    FooterComponent,
+    MapComponentComponent,
+    Sellv2Component
   ],
   imports: [
     BrowserModule,

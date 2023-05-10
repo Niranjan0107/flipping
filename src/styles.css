@@ -18,8 +18,16 @@
     
   }
 
+  .dark-btn a.header-btn {
+    background-color: #0a1f46;
+}
+  app-header:not(.light-header) .light {
+    display: none;
+}
 
-
+app-header.light-header .dark {
+    display: none;
+}
 
   body {
     margin: 0;
@@ -360,8 +368,39 @@ ul.navbar-nav li a {
   margin-right: 30px;
 }
 
+
+.sell-section-img, .images-sell {
+  margin: 0 auto;
+  text-align: center;
+}
+.sell-section-img img, .images-sell img {
+  width: 97%;
+  margin: 0 auto;
+}
+
+.sell-inner-section-p h1 {
+  font-size: 32px;
+}
+
+.sell-inner-section-p h1 span {
+  font-size: 27px;
+}
+.sell-inner-section-p p {
+  font-size: 15px;
+}
+
+a.list-btn.listing-button-sell {
+  margin-top: 20px;
+  display: block;
+}
+
+
 @media(min-width:768px)
 {
+  .light-header ul.navbar-nav li a {
+    color: #fff;
+}
+
   .footer-contact > * span {
     max-width: 54%;
   }
@@ -385,11 +424,25 @@ ul.navbar-nav li a {
     margin: 0 auto;
   }
   
+
+
+  
 }
 
 
 @media(max-width:767px)
 {
+  .light-header .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.light-header ul.navbar-nav li a {
+    color: #050505;
+}
+.light-header button.navbar-toggler {
+    color: #fff !important;
+    border-color: #fff;
+}
   .testimonials-slider .test-images img {
     width: 40px;
     margin: 6px;
@@ -421,7 +474,9 @@ ul.navbar-nav li a {
   justify-content: space-between;
   padding: 0 !important;
 }
-
+a.list-btn.listing-button-sell {
+  margin-top: 10px;
+}
 .content .main-section {
   padding-bottom: 0 !important;
 }
@@ -545,6 +600,24 @@ a.list-btn
   text-align: left;
   margin-bottom: 20px;
 }
+
+.sell-container img {
+  width: 100%;
+}
+
+.sell-container {
+  padding: 20px;
+}
+
+.sell-section-img {
+  padding-top: 0 !important;
+}
+
+.testimonials-slider {
+  margin-top: 30px;
+}
+
+
 }
 
 
@@ -674,7 +747,7 @@ a.list-btn:after {
 .footer-menu {
   text-align: left;
 }
-.light-header {
+.light-header .toolbar {
     position: absolute;
     top: 0;
     left: 0;
@@ -684,9 +757,27 @@ a.list-btn:after {
     color: #fff;
     border-color: #1023498c;
 }
-.light-header ul.navbar-nav li a {
-    color: #fff;
+
+
+.sell-inner-section-p p{
+  color: #202020;
+  font-weight: 300;
+  font-family: "Montserrat";
 }
+.sell-inner-section-p h1{
+
+  color: #0a1f46;
+  font-weight: 500;
+  font-family: "Montserrat";
+  margin-bottom: 15px;
+}
+.sell-inner-section-p h1 span{
+
+  color: #081e47;
+  font-weight: 300;
+  font-family: "Montserrat";
+}
+
 
 
 @media(min-width:1920px)
@@ -695,6 +786,9 @@ a.list-btn:after {
     font-size: 80px;
     line-height: 95px;
     
+}
+.banner-sec {
+  height: 575px;
 }
 .main-section h2 {
     font-size: 75px;
@@ -956,24 +1050,14 @@ a.header-btn {
 .sell-inner-section-p p{
   font-size: 18px;
   line-height: 24px;
-  color: #202020;
-  font-weight: 300;
-  font-family: "Montserrat";
 }
 .sell-inner-section-p h1{
   font-size: 45px;
   line-height: 54px;
-  color: #0a1f46;
-  font-weight: 500;
-  font-family: "Montserrat";
-  margin-bottom: 15px;
 }
 .sell-inner-section-p h1 span{
   font-size: 30px;
   line-height: 36px;
-  color: #081e47;
-  font-weight: 300;
-  font-family: "Montserrat";
 }
 .images-sell img{
   width: 100%;
@@ -1011,6 +1095,10 @@ a.header-btn {
         color: #fff !important;
         border-color: #fff;
     }
+    .sell-container {
+      padding: 0px 25px;
+  }
+
 
     .testimonials-slider:after {
    
@@ -1087,6 +1175,20 @@ a.fill-btn {
 }
 }
 
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+
+  ul.navbar-nav li a {
+    margin-right: 12px;
+}
+
+    .toolbar img {
+      width: 150px;
+    }
+
+}
+
+
+
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) 
 {
 
@@ -1132,9 +1234,7 @@ a.fill-btn {
 
 
 
-.banner-sec {
-   
-    height: 575px;
+.banner-sec { 
     width: 100%;
     background-repeat: no-repeat;
     background-position: right;
@@ -1164,10 +1264,18 @@ a.fill-btn {
 }
 
 
+ .accordion-button:not(.collapsed)::after {
+  content: "-" !important;
+  background-image: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+  position: absolute;
+  right: 21px;
+  top: 13px;
+}
 
 
-
-.accordion-button::after, .accordion-button:not(.collapsed)::after {
+.accordion-button::after{
     content: "+" !important;
     background-image: none;
     font-family: 'Montserrat', sans-serif;

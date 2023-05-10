@@ -1,0 +1,132 @@
+<div class="map-main">
+    <div class="map-inner">
+        <div class="map-left">
+            <iframe src="https://snazzymaps.com/embed/489248" width="100%" height="600px" style="border:none;"></iframe>
+
+
+
+
+
+
+        </div>
+
+        <div class="filters">
+            <div class="search">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Location" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"><img src="./assets/images/search.png"
+                        /></button>
+                  </div>
+
+                  <div class="radius-box">
+                    <label for="customRange2" class="form-label">Radius: {{ sliderValue }} Miles </label>
+                    <input type="range" class="form-range" [(ngModel)]="sliderValue" min="0" max="100"  id="customRange">
+                  </div>
+
+                  <div class="type-filters">
+                    <div class="row">
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Categories" aria-label="First name">
+                        </div>
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Bedrooms" aria-label="Last name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Bathrooms" aria-label="Last name">
+                          </div>
+                          <div class="col">
+                            <input type="number" class="form-control" placeholder="Mim Sq. Ft." aria-label="Last name">
+                          </div>
+                      </div>
+                  </div>
+
+
+                  <div class="search-box">
+                    <label for="customRange2" class="form-label">Price Range: <span>$0 to ${{ sliderValue2 }}</span></label>
+                    <div class="inline">
+                    <input type="range" class="form-range" [(ngModel)]="sliderValue2" min="0" max="3000000"  id="customRange2">
+                    <!-- <ngx-slider [(value)]="value" [options]="options"></ngx-slider> -->
+
+                    <input type="submit" value="search" class="fill-btn">
+                </div>
+                  </div>
+            </div>
+
+
+            <div class="result">
+
+                    <div class="propert-title">
+                        <div class="property-heading">58 Results Found</div>
+                        <div class="arrange-icons">
+                            <span class="active"><i class="fa fa-th-list"></i></span>
+                            <span class=""><i class="fa fa-th-large"></i></span>
+                        </div>
+                    </div>
+
+                <div class="property-row">
+                        <div class="property-image">
+                            <img
+                              src="./assets/images/property.png"
+                            />
+                        </div>
+                        <div class="property-details">
+                            <h3 class="title">3871 Main St. San Fransisco, CA 95784</h3>
+                            <p><b>Single Family Home</b></p>
+                            <div class="specs">
+                                <span>
+                                    <img
+                                    src="./assets/images/bed.png"
+                                  /> 4
+                                </span>
+                                <span>
+                                    <img
+                                    src="./assets/images/bath.png"
+                                  /> 2
+                                </span>
+                                <span>
+                                    <img
+                                    src="./assets/images/parking.png"
+                                  /> 1
+                                </span>
+                                <span>
+                                    <img
+                                    src="./assets/images/area.png"
+                                  /> 200 Sq. ft.
+                                </span>
+                            </div>
+
+                            <div class="property-contact">
+                                <div class="owner">
+                                    <div class="owner-inner">
+                                        <img
+                                        src="./assets/images/owner.png"
+                                      /> 
+                                      <span><b>Dale Frank</b></span>
+                                      <span> 17 Days on Market</span>
+                                    </div>
+
+                                    <div class="propert-value">
+                                            <span>$359,900</span>
+                                            <a href="#" class="fill-btn">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+
+
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const progress = document.querySelector('.form-range');
+  
+  progress.addEventListener('input', function() {
+    const value = this.value;
+    this.style.background = `linear-gradient(to right, #82CFD0 0%, #82CFD0 ${value}%, #fff ${value}%, white 100%)`
+  })
+</script>

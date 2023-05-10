@@ -6,6 +6,7 @@ import { SellComponent } from './sell/sell.component';
 import { WhyComponent } from './why/why.component';
 import { BuyComponent } from './buy/buy.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { Sellv2Component } from './sellv2/sellv2.component';
 
 const routes: Routes = [
   { path: '', component: HomepageComponent },
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: 'sell', component: SellComponent },
   { path: 'why', component: WhyComponent },
   { path: 'buy', component: BuyComponent },
-  { path: 'testimonials', component: TestimonialsComponent }
+  { path: 'testimonials', component: TestimonialsComponent },
+  { path: 'sellv2', component: Sellv2Component }
 ];
 
 @NgModule({

@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BuyComponent } from './buy.component';
+import { Sellv2Component } from './sellv2.component';
 
-describe('BuyComponent', () => {
-  let component: BuyComponent;
-  let fixture: ComponentFixture<BuyComponent>;
+describe('Sellv2Component', () => {
+  let component: Sellv2Component;
+  let fixture: ComponentFixture<Sellv2Component>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [BuyComponent]
+      declarations: [Sellv2Component]
     });
-    fixture = TestBed.createComponent(BuyComponent);
+    fixture = TestBed.createComponent(Sellv2Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -18,9 +18,4 @@ describe('BuyComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-
-
-  
 });
-
-

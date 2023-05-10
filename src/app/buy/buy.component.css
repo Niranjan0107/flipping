@@ -1,3 +1,14 @@
-a.header-btn {
-    background-color: #0a1f46;
-}
+#map-container {
+    display: flex;
+  }
+  
+  #place-list {
+    width: 25%;
+    height: 100vh;
+    overflow: scroll;
+  }
+  
+  #map {
+    width: 75%;
+    height: 100vh;
+  }

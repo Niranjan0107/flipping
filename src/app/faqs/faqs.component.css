@@ -1,18 +1,4 @@
 
-.light-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    background: none;
-    color: #fff;
-    border-color: #1023498c;
-}
-.light-header ul.navbar-nav li a {
-    color: #fff;
-}
-
 .banner-sec {
     display: flex;
     align-items: center;
@@ -65,14 +51,15 @@
     padding: 30px;
     border: 5px solid #d9d9d97a;
 }
+.banner-sec {
+    height: 408px;
+}
 @media(min-width:768px)
 {
 .space170 {
     height: 75px;
 }
-.banner-sec {
-    height: 408px;
-}
+
 }
 
 @media(min-width:1920px)
@@ -104,7 +91,9 @@
         line-height: 30px;
        
     }
-    
+    .banner-sec {
+        height: 575px;
+      }
     .accordion-body {
         font-size: 18px;
         line-height: 24px;
