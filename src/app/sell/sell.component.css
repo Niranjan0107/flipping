@@ -1,0 +1,153 @@
+
+
+
+.banner-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.banner-sec h1 {
+    font-size: 50px;
+    line-height: 65px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.banner-sec h1 span {
+    color: #ba193d;
+}
+.banner-sec p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+
+
+
+.testimonials-slider:after {
+    content: "";
+    background-image: url(../../assets/images/splash1.png);
+    position: absolute;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    transform: rotate(2deg);
+    width: 675px;
+    top: -21px;
+    left: -71px;
+}
+
+.testimonials-slider {
+    position: relative;
+}
+
+.carousel-item {
+    border-radius: 32px;
+    border-bottom-left-radius: 104px;
+    padding: 30px;
+    border: 5px solid #d9d9d97a;
+}
+@media(min-width:768px)
+{
+.space170 {
+    height: 75px;
+}
+.sell-container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: left;
+}
+.col-banner.inner-banner {
+    max-width: 70%;
+}
+.banner-sec {
+    height: 408px;
+}
+}
+
+@media(min-width:1920px)
+{
+    .space170 {
+        height: 135px;
+    }
+
+    .testimonials-slider:after {
+   
+        bottom: -3px;
+        left: -197px;
+        width: 1114px;
+     
+    }
+    
+    .banner-sec h1 {
+        font-size: 80px;
+        line-height: 96px;
+    }
+    
+    .banner-sec p {
+        font-size: 27px;
+        line-height: 36px;
+    }
+
+    .col-banner.inner-banner {
+        max-width: 1170px;
+        margin: 0 auto;
+    }   
+    
+    .sell-container {
+        max-width: 1215px;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+    .sell-container p
+    {
+    font-size: 22px;
+line-height: 30px;
+color: #202020;
+font-weight: 300;
+    }
+
+
+}
+
+@media(max-width:767px)
+{
+   
+    .banner-sec h1, .selling-sec h1 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .col-banner.inner-banner {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .banner-sec p {
+        font-size: 16px;
+    }
+
+    .testimonials-slider:after {
+        width: 89% ;
+        top: 159px ;
+        background-position: top ;
+        left: 0px ;
+        right: 0 ;
+        transform: none ;
+        margin: 0 auto;
+    }
+
+    .banner-sec {
+        height: 375px;
+    }
+
+}

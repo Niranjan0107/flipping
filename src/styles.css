@@ -1,0 +1,1159 @@
+
+:host {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 8px 0;
+    
+  }
+
+
+
+
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+  p {
+    margin: 0;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+  .toolbar {
+    border-bottom: 1px solid #d5d5d5;
+}
+  .toolbar {
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; */
+    height: 75px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    color: white;
+    font-weight: 600;
+    padding: 0px 30px;
+  }
+
+  .toolbar img {
+    margin: 0 16px;
+  }
+
+  .toolbar #twitter-logo {
+    height: 140px;
+    margin: 0 8px;
+  }
+
+  .toolbar #youtube-logo {
+    height: 40px;
+    margin: 0 16px;
+  }
+
+  .toolbar #twitter-logo:hover,
+  .toolbar #youtube-logo:hover {
+    opacity: 0.8;
+  }
+
+ 
+
+  a.header-btn {
+    background-color: #be173a;
+    height: 45px;
+    color: #fff;
+    line-height: 43px;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 0 30px;
+    margin: 0;
+    font-size: 16px;
+}
+.buy-section-desc p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
+.buy-section h2 {
+  color: #fff;
+  font-size: 37px;
+}
+.main-section
+{
+  background-color: #faf9f6;
+  min-height: 100vh;
+}
+.main-section h2 span {
+    color: #bb1a3d;
+    font-weight: 800;
+}
+  .main-section h1 {
+    font-size: 50px;
+    line-height: 60px;
+    color: #0b1f45;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.main-section h2 {
+    font-size: 45px;
+    line-height: 55px;
+    color: #0b1f45;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.main-section-desc {
+  font-size: 16px;
+  font-weight: 500;
+  color: #212121;
+  font-family: "Montserrat";
+}
+
+a.fill-btn {
+  background-color: #0a1f46;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 30px;
+  border-radius: 100px;
+  margin-right: 30px;
+  font-weight: 600;
+}
+
+a.list-btn {
+  font-size: 15px;
+  line-height: 20px;
+  color: #be1739;
+  font-family: "Montserrat";
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.content .main-section .why-people h2 {
+  font-size: 33px;
+  text-align: center;
+}
+
+.main-section-inner {
+  padding: 3vh;
+}
+
+.main-section-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.row.why-us p {
+  font-size: 13px;
+  line-height: 24px;
+  color: #212121;
+  font-weight: 500;
+  font-family: "Montserrat";
+  text-align: center;
+}
+.row.why-us h3 {
+  font-size: 20px;
+  line-height: 36px;
+  color: #0a1f46;
+  font-weight: 600;
+  font-family: "Montserrat";
+  text-align: center;
+}
+.row.why-us {
+  text-align: center;
+}
+.row.why-us img {
+  height: 70px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+
+
+
+
+a.list-btn.invert {
+  color: #fff;
+}
+
+a.fill-btn.invert {
+  background-color: #fff;
+  color: #041b49;
+  font-weight: 600;
+}
+
+.inner-width {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.main-section-inner {
+  position: relative;
+  z-index: 9;
+}
+
+.main-section
+{
+  position: relative;
+}
+
+.main-section:after {
+  content: "";
+  background-image: url(./assets/images/ell.png);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 460px;
+  z-index: 1;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+
+
+.container.house-sec:after {
+  content: "";
+  background-image: url(./assets/images/splash1.png);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  transform: rotate(-18deg);
+}
+
+.container.house-sec .row {
+  position: relative;
+  z-index: 9;
+}
+.container.house-sec {
+  position: relative;
+  z-index: 9;
+  top: 100px;
+}
+
+
+.selling-sec h1 span {
+  color: #c1163a;
+}
+
+.selling-sec h1 {
+  font-size: 45px;
+  line-height: 60px;
+  color: #0a1f46;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.selling-sec p {
+  font-weight: 500;
+  font-size: 17px;
+  padding: 10px 0px;
+}
+
+.selling-sec {
+  text-align: center;
+}
+
+
+.sell-houses img {
+  width: 100%;
+}
+
+.sell-houses p {
+  font-size: 23px;
+  color: #071e46;
+  font-weight: 800 !important;
+  font-family: "Montserrat";
+  text-align: left;
+  margin-left: 11px;
+  line-height: 1.1;
+}
+
+
+footer {
+  background-color: #041b49;
+  color: #fff;
+}
+
+
+
+.footer-contact > * img {
+  height: 40px;
+}
+
+
+.footer-contact > * {
+  column-gap: 22px;
+}
+
+.footer-social a {
+  margin-right: 15px;
+}
+
+.footer-social img {
+  width: 28px;
+}
+
+.footer-social {
+  background-color: #00000078;
+  padding: 19px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+}
+.footer-container {
+  max-width: 1150px;
+}
+
+.footer-menu ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.footer-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 24px;
+  font-size: 13px;
+}
+.footer-menu h3 {
+  font-size: 20px;
+  font-weight: revert;
+  border-bottom: 3px solid #ba1f408c;
+  line-height: 38px;
+  width: 90%;
+}
+
+ul.navbar-nav li a {
+  font-size: 15px;
+  line-height: 19px;
+  color: #061e46;
+  font-weight: 600;
+  font-family: "Montserrat";
+  text-align: right;
+  margin-right: 25px;
+}
+.menu {
+  margin-right: 30px;
+}
+
+@media(min-width:768px)
+{
+  .footer-contact > * span {
+    max-width: 54%;
+  }
+  .content {
+    margin-bottom: 60px;
+  }
+  
+  .footer-social {
+   
+    margin: 70px 0px;
+    margin-bottom: 30px;
+  }
+  .selling-sec {
+    padding-top: 80px;
+  }
+  .footer-social span {
+    margin-right: 41px;
+  }
+  .find-row {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+}
+
+
+@media(max-width:767px)
+{
+  .testimonials-slider .test-images img {
+    width: 40px;
+    margin: 6px;
+  }
+
+  .testimonials-slider span.active img {
+    width: 60px !important;
+  }
+  
+  ul.navbar-nav {
+    position: fixed;
+    background-color: #fff;
+    z-index: 99;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0px 3px 1px 0px #adaaaa;
+    width: 100%;
+    left: 0;
+    align-items: baseline;
+    padding-top: 14px !important;
+    padding: 30px;
+    top: 76px;
+}
+.menu {
+  margin-right: 20px;
+}
+
+.toolbar {
+  justify-content: space-between;
+  padding: 0 !important;
+}
+
+.content .main-section {
+  padding-bottom: 0 !important;
+}
+
+.main-section:after
+{
+  display: none;
+}
+
+ul.navbar-nav li {
+  border-bottom: 1px solid #ededed;
+  width: 100%;
+  display: inline-flex;
+}
+
+  .content h1{
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .testimonials-slider {
+    padding-bottom: 50px;
+}
+  .content h2{
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .find-row br {
+    display: none;
+}
+  .content h3{
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .buy-section-desc p {
+    font-size: 15px;
+}
+  a.header-btn
+  {
+    display: none;
+  }
+
+  a.fill-btn {
+    
+    font-size: 12px;
+    padding: 10px 20px;
+    margin-right: 18px;
+}
+a.list-btn
+{
+    
+  font-size: 12px;
+
+}
+.footer-logo {
+  text-align: left;
+}
+
+.footer-logo img {
+  width: 80%;
+}
+.main-section-btns {
+  margin: 15px 0px;
+}
+.content .why-people h2 {
+  font-size: 24px !important;
+  line-height: 30px !important;
+}
+.main-section-desc {
+  margin-top: 20px;
+}
+.sell-houses p {
+  font-size: 18px !important;
+  margin-bottom: 20px;
+}
+.why-us > * {
+  margin-bottom: 35px;
+  padding: 0px 40px;
+}
+
+
+.container.house-sec {
+
+  top: 50px;
+}
+
+.container.house-sec::after {
+  transform: none;
+  background-position: top;
+  background-size: contain;
+}
+.buy-section {
+  padding-bottom: 90px !important;
+}
+
+.row.footer-menu > * {
+  width: 50%;
+  text-align: left;
+}
+.row.footer-contact > * img {
+  width: 19%;
+  object-fit: contain;
+}
+.footer-social {
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.social-title span {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.social-title {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.row.footer-contact > * {
+  text-align: left;
+  margin-bottom: 20px;
+}
+}
+
+
+
+.carousel-indicators .active {
+  opacity: 1;
+  background-color: #0a1f46   !important;
+}
+
+.carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  display: block;
+  max-width: 12px;
+  min-height: 12px;
+  border-radius: 100%;
+  background-color: #ccc !important;
+}
+.carousel-indicators {
+  bottom: -79px;
+}
+
+.name-rating {
+  margin-top: 14px;
+}
+.stars {
+  color: #ffc200;
+}
+span.client-name {
+  color: #081e47;
+  font-weight: 700;
+  display: block;
+  font-size: 13px;
+}
+.testimonials-slider {
+  max-width: 560px;
+}
+span.active img {
+  width: 80px !important;
+}
+.test-images {
+  margin-top: 15px;
+  margin-bottom: 27px;
+}
+.test-images img {
+  width: 60px;
+  margin: 6px;
+}
+
+.carousel-item p {
+  font-size: 14px !important;
+  line-height: 24px;
+  color: #212121;
+  font-weight: 300 !important;
+  font-family: "Montserrat";
+  text-align: center;
+  font-style: italic;
+}
+
+.diff-color {
+  background-color: #fafaf7;
+}
+
+.testi-wrap {
+  margin: 0px 10px;
+}
+
+.carousel-item {
+  background-color: white;
+  padding: 28px;
+  border-bottom-left-radius: 60px;
+  box-shadow: 0px 0px 5px 0px #d9d9d1;
+  margin-bottom: 12px;
+}
+
+
+.diff-color {
+  position: relative;
+}
+
+.diff-color:after {
+  content: "";
+  background-image: url('./assets/images/fdiff.png');
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  z-index: 1;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  left: 0;
+  z-index: 1;
+}
+
+
+div#carouselExampleIndicators {
+  position: relative;
+  z-index: 9;
+}
+
+a.list-btn:after {
+  content: "\f101";
+  font-family: Fontawesome;
+  padding-left: 7px;
+}
+
+
+.diff-color .container .selling-row:first-child {
+  position: relative;
+  z-index: 9;
+}
+
+.diff-color .container .selling-row:first-child:after {
+  background: linear-gradient(to bottom, #f3f7ff 0%, #fafaf7 100%);
+  border-radius: 63px;
+  content: "";
+  position: absolute;
+  top: -35px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.footer-menu {
+  text-align: left;
+}
+.light-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: none;
+    color: #fff;
+    border-color: #1023498c;
+}
+.light-header ul.navbar-nav li a {
+    color: #fff;
+}
+
+
+@media(min-width:1920px)
+{
+  .main-section h1 {
+    font-size: 80px;
+    line-height: 95px;
+    
+}
+.main-section h2 {
+    font-size: 75px;
+    line-height: 85px;
+   
+}
+
+.main-section-inner {
+  max-width: 1390px;
+  margin: 0 auto;
+}
+
+.main-section-inner h1, .main-section-inner h2, .main-section-inner .row.d-flex, .main-section-inner .img-sec {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row .main-section-desc {
+  font-size: 18px;
+  line-height: 24px;
+  padding: 19px 40px;
+}
+a.fill-btn, a.list-btn {
+  font-size: 17px;
+  line-height: 20px;
+  padding: 19px 40px;
+}
+
+
+.content .main-section .why-people h2 {
+  font-size: 45px;
+  line-height: 54px;
+}
+
+.row.why-us h3
+{
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.row.why-us img {
+  height: 92px;
+ 
+}
+
+.row.why-us p {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.main-section:after {
+  
+  height: 525px;
+  background-size: cover;
+}
+.buy-section h2:nth-child(3) {
+  font-size: 85px;
+  line-height: 102px;
+}
+
+.buy-section h2:nth-child(2) {
+  font-size: 75px;
+  line-height: 90px;
+}
+.buy-section h2:nth-child(1) {
+  line-height: 84px;
+  font-size: 70px;
+}
+.buy-section-desc p {
+  font-size: 19px;
+  line-height: 26px;
+}
+.inner-width {
+  max-width: 1390px;
+}
+
+.buy-section-desc p {
+  margin-bottom: 60px;
+}
+
+.buy-section-desc {
+  padding-left: 118px;
+}
+.container-xxl {
+  max-width: 1660px;
+}
+.small {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.small img {
+  width: 83%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.container.house-sec:after {
+  bottom: 40px;
+  background-position: top;
+  background-size: contain;
+  transform: scale(1.25) rotate(-4deg);
+  left: -43px;
+}
+body, :root {
+  overflow-x: hidden !important;
+}
+
+.selling-sec p {
+  font-size: 22px;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+}
+.selling-sec .selling-row {
+  margin-top: 150px !important;
+  padding-bottom: 10px;
+}
+.selling-sec h1 {
+  font-size: 75px;
+  line-height: 90px;
+}
+.selling-sec .sell-houses p {
+  font-size: 25px;
+  line-height: 34px;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+.testimonials-slider {
+  max-width: 815px;
+}
+.testimonials-slider .col p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.testimonials-slider .test-images img {
+  width: 86px;
+}
+
+.testimonials-slider span.active img {
+  width: 116px !important;
+}
+.testimonials-slider #carouselExampleIndicators .carousel-inner .testi-wrap .carousel-item p {
+  font-size: 21px !important;
+  line-height: 34px;
+}
+span.client-name {
+  font-size: 18px;
+  line-height: 24px;
+}
+span.stars {
+  font-size: 20px;
+  line-height: 35px;
+}
+.selling-sec .find-row h1 {
+  font-size: 65px;
+  line-height: 78px;
+}
+.footer-logo img {
+  width: 420px;
+}
+.find-row {
+  max-width: 940px;
+  margin: 0 auto;
+}
+.buy-section {
+  position: relative;
+  height: 675px;
+}
+
+.diff-color:after {
+
+  height: 236px;
+}
+.footer-container {
+  max-width: 1450px;
+}
+
+.footer-menu h3 {
+  font-size: 30px;
+  line-height: 56px;
+  color: #ffffff;
+  font-weight: 900;
+  font-family: 'Raleway', sans-serif;
+
+}
+.footer-menu ul li a {
+  font-size: 20px;
+  line-height: 37px;
+  font-family: 'Raleway';
+}
+.footer-social span {
+  font-size: 23px;
+  line-height: 28px;
+  font-family: 'Raleway';
+}
+.footer-contact > * img {
+  height: 50px;
+}
+.footer-contact > * span {
+  font-size: 20px;
+  line-height: 27px;
+  max-width: 100%;
+  font-family: 'Raleway';
+
+}
+.footer-social a {
+  margin-right: 23px;
+}
+
+.footer-social img {
+  width: 35px;
+}
+.footer-social {
+  height: 100px;
+  width: 85%;
+    margin-left: auto;
+}
+footer {
+
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.main-section-inner {
+  padding-top: 50px !important;
+}
+ul.navbar-nav li a {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.content .main-section .why-people h2 {
+  margin-top: 30px;
+  margin-bottom: 35px;
+  font-weight: 600;
+}
+
+}
+
+
+
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    .light-header .navbar-toggler-icon {
+        filter: invert(1);
+    }
+
+    .light-header ul.navbar-nav li a {
+        color: #050505;
+    }
+    .light-header button.navbar-toggler {
+        color: #fff !important;
+        border-color: #fff;
+    }
+
+    .testimonials-slider:after {
+   
+        width: 90%;
+        top: 11px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .faq-container {
+        width: 90%;
+    }
+  .collapse.show  ul.navbar-nav {
+    transform: scale(1);
+    transition: .5s;
+}
+.collapse  ul.navbar-nav {
+  transform: scale(0);
+  transition: .5s;
+}
+  ul.navbar-nav {
+    position: fixed;
+    background-color: #fff;
+    z-index: 99;
+    right: 0;
+    top: 75px;
+    align-items: baseline;
+    padding: 35px 60px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0px 0px 5px -2px #333;
+}
+
+  a.list-btn {
+    font-size: 13px;
+}
+.sell-houses p {
+  font-size: 16px;
+}
+a.fill-btn {
+    font-size: 13px;
+    margin-right: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.footer-logo img {
+  width: 100%;
+}
+.testimonials-slider {
+  max-width: 760px;
+}
+
+.footer-contact > * img {
+  width: 40px;
+  object-fit: contain;
+}
+
+.footer-contact > * span {
+  max-width: 100%;
+}
+.footer-contact > * {
+  width: 100%;
+  margin-bottom: 24px;
+}
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  text-align: initial;
+  align-items: center;
+}
+.footer-social {
+  margin-top: 0 ;
+  margin-bottom: 0;
+}
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) 
+{
+
+  .collapse.show  ul.navbar-nav {
+    transform: scale(1);
+    transition: .5s;
+}
+.collapse  ul.navbar-nav {
+  transform: scale(0);
+  transition: .5s;
+}
+  ul.navbar-nav {
+    position: fixed;
+    background-color: #fff;
+    z-index: 99;
+    right: 0;
+    top: 75px;
+    align-items: baseline;
+    padding: 35px 60px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0px 0px 5px -2px #333;
+}
+
+.main-section:after {
+
+  height: 633px;
+  background-size: cover;
+}
+
+.main-section {
+  min-height: 100%;
+}
+.inner-width {
+  max-width: 890px;
+}
+
+.testimonials-slider {
+  max-width: 760px;
+}
+
+}
+
+
+
+
+.banner-sec {
+   
+    height: 575px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+
+.accordion-item .accordion-button {
+    font-size: 20px;
+    line-height: 27px;
+    color: #0a1f46;
+    font-weight: 500;
+}
+
+.accordion-body {
+    font-size: 16px;
+    line-height: 20px;
+    color: #202020;
+    font-weight: 300;
+}
+
+
+.faq-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+
+
+
+
+.accordion-button::after, .accordion-button:not(.collapsed)::after {
+    content: "+" !important;
+    background-image: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    position: absolute;
+    right: 21px;
+    top: 13px;
+}
+
+.accordion-item {
+    border: 0;
+}
+
+.accordion-button:not(.collapsed)::after {
+    top: 25px;
+}
+
+button.accordion-button, .accordion-collapse.collapse.show {
+    background-color: #fafafa !important;
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+button.accordion-button.collapsed
+{
+    background: none !important;
+}
+.accordion-body {
+    padding: 0px 30px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+button.accordion-button {
+    border-top-right-radius: 26px !important;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+

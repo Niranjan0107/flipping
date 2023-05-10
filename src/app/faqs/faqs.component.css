@@ -1,0 +1,174 @@
+
+.light-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: none;
+    color: #fff;
+    border-color: #1023498c;
+}
+.light-header ul.navbar-nav li a {
+    color: #fff;
+}
+
+.banner-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.banner-sec h1 {
+    font-size: 50px;
+    line-height: 65px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.banner-sec p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+
+
+
+.testimonials-slider:after {
+    content: "";
+    background-image: url(../../assets/images/splash1.png);
+    position: absolute;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    transform: rotate(2deg);
+    width: 675px;
+    top: -21px;
+    left: -71px;
+}
+
+.testimonials-slider {
+    position: relative;
+}
+
+.carousel-item {
+    border-radius: 32px;
+    border-bottom-left-radius: 104px;
+    padding: 30px;
+    border: 5px solid #d9d9d97a;
+}
+@media(min-width:768px)
+{
+.space170 {
+    height: 75px;
+}
+.banner-sec {
+    height: 408px;
+}
+}
+
+@media(min-width:1920px)
+{
+    .space170 {
+        height: 135px;
+    }
+
+    .testimonials-slider:after {
+   
+        bottom: -3px;
+        left: -197px;
+        width: 1114px;
+     
+    }
+    
+    .banner-sec h1 {
+        font-size: 80px;
+        line-height: 96px;
+    }
+    
+    .banner-sec p {
+        font-size: 27px;
+        line-height: 36px;
+    }
+
+    .accordion-item .accordion-button {
+        font-size: 25px;
+        line-height: 30px;
+       
+    }
+    
+    .accordion-body {
+        font-size: 18px;
+        line-height: 24px;
+       
+    }
+    
+
+}
+
+@media(max-width:767px)
+{
+    .faq-container {
+        margin-bottom: 50px !important;
+    }
+    .banner-sec h1, .selling-sec h1 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .col-banner.inner-banner {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .banner-sec p {
+        font-size: 16px;
+    }
+
+    .testimonials-slider:after {
+        width: 89% ;
+        top: 159px ;
+        background-position: top ;
+        left: 0px ;
+        right: 0 ;
+        transform: none ;
+        margin: 0 auto;
+    }
+
+    .banner-sec {
+        height: 375px;
+    }
+
+
+
+    .faq-container {
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .accordion-body {
+        font-size: 14px;
+        line-height: 20px;
+      
+    }
+    .accordion-item .accordion-button {
+        font-size: 16px;
+        line-height: 22px;
+        color: #0a1f46;
+        font-weight: 500;
+        padding-right: 40px;
+    }
+
+    .accordion-button::after, .accordion-button:not(.collapsed)::after {
+        font-size: 29px;
+        top: 23px;
+    }
+}
