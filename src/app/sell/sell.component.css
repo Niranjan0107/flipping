@@ -55,6 +55,10 @@
     padding: 30px;
     border: 5px solid #d9d9d97a;
 }
+
+
+
+
 @media(min-width:768px)
 {
 .space170 {
@@ -150,4 +154,32 @@ font-weight: 300;
         height: 375px;
     }
 
+}
+
+
+/*----------- New Css ----*/
+
+
+
+
+
+
+
+
+@media(min-width:768px)
+{
+
+}
+
+
+@media(max-width:767px)
+{
+    
+}
+
+
+
+@media(min-width:1920px)
+{
+    
 }
