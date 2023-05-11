@@ -25,16 +25,16 @@
 
                   <div class="type-filters">
                     <div class="row">
-                        <div class="col">
+                        <div class="col two-col-xs">
                           <input type="text" class="form-control" placeholder="Categories" aria-label="First name">
                         </div>
-                        <div class="col">
+                        <div class="col two-col-xs">
                           <input type="text" class="form-control" placeholder="Bedrooms" aria-label="Last name">
                         </div>
-                        <div class="col">
+                        <div class="col two-col-xs">
                             <input type="text" class="form-control" placeholder="Bathrooms" aria-label="Last name">
                           </div>
-                          <div class="col">
+                          <div class="col two-col-xs">
                             <input type="number" class="form-control" placeholder="Mim Sq. Ft." aria-label="Last name">
                           </div>
                       </div>
@@ -53,16 +53,16 @@
             </div>
 
 
-            <div class="result">
-
+            <div class="result" [class.grid]="isActive(2)">
+        
                     <div class="propert-title">
                         <div class="property-heading">58 Results Found</div>
-                        <div class="arrange-icons">
-                            <span class="active"><i class="fa fa-th-list"></i></span>
-                            <span class=""><i class="fa fa-th-large"></i></span>
+                        <div class="arrange-icons" >
+                            <span class="active" [class.active]="isActive(1)" (click)="setActive(1)"><i class="fa fa-th-list"></i></span>
+                            <span class="" [class.active]="isActive(2)" (click)="setActive(2)"><i class="fa fa-th-large"></i></span>
                         </div>
                     </div>
-
+<div class="propert-wrap">
                 <div class="property-row">
                         <div class="property-image">
                             <img
@@ -114,7 +114,57 @@
                         </div>
                 </div>
 
+                <div class="property-row">
+                  <div class="property-image">
+                      <img
+                        src="./assets/images/property.png"
+                      />
+                  </div>
+                  <div class="property-details">
+                      <h3 class="title">3871 Main St. San Fransisco, CA 95784</h3>
+                      <p><b>Single Family Home</b></p>
+                      <div class="specs">
+                          <span>
+                              <img
+                              src="./assets/images/bed.png"
+                            /> 4
+                          </span>
+                          <span>
+                              <img
+                              src="./assets/images/bath.png"
+                            /> 2
+                          </span>
+                          <span>
+                              <img
+                              src="./assets/images/parking.png"
+                            /> 1
+                          </span>
+                          <span>
+                              <img
+                              src="./assets/images/area.png"
+                            /> 200 Sq. ft.
+                          </span>
+                      </div>
 
+                      <div class="property-contact">
+                          <div class="owner">
+                              <div class="owner-inner">
+                                  <img
+                                  src="./assets/images/owner.png"
+                                /> 
+                                <span><b>Dale Frank</b></span>
+                                <span> 17 Days on Market</span>
+                              </div>
+
+                              <div class="propert-value">
+                                      <span>$359,900</span>
+                                      <a href="#" class="fill-btn">Details</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+          </div>
+              </div>
 
             
             </div>
